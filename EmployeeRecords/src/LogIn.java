@@ -1,3 +1,5 @@
+/// ****Authors: Wilfredo Hernandez Escobar & Thomas Gutierrez***///
+
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -82,9 +84,9 @@ public class LogIn {
 					}
 					if(count ==1)
 					{
-						JOptionPane.showMessageDialog(null, "Employee ID and password is correct. ");
+						//JOptionPane.showMessageDialog(null, "Employee ID and password is correct. ");
 						frame.dispose();
-						EmployeeRecords EmpInfo = new EmployeeRecords();
+						EmployeeInfo EmpInfo = new EmployeeInfo();
 						EmpInfo.setVisible(true);
 					}else if(count > 1)
 					{
